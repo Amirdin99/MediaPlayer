@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+   <ImageView
+       android:layout_width="308dp"
+       android:layout_height="308dp"
+       android:layout_marginTop="80dp"
+       android:src="@drawable/download"
+       android:padding="15dp"/>
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/play"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_baseline_play_arrow_24"
+            android:layout_height="wrap_content"/>
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/stop"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_baseline_stop_24"
+            android:layout_height="wrap_content"/>
+        <Space
+            android:layout_width="10dp"
+            android:layout_height="match_parent"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/pause"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_baseline_pause_24"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
