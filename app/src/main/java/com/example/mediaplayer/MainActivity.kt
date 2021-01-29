@@ -35,9 +35,6 @@ class MainActivity : AppCompatActivity() {
 
             }
 
-
-
-
             mp?.start()
             Log.d("MainActivity", "duration: ${mp!!.duration / 1000} seconds")
         }
